@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local credentials and project artifacts — never commit
+biorender.json
+*credentials*.json
+*credentials*.yaml
+token*.txt
+.github_token
+*.local.json
+/out/
+/_work/

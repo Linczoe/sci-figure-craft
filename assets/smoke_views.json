@@ -1,0 +1,7 @@
+{
+  "coordinate_space": "viewBox",
+  "sets": [0],
+  "views": [
+    {"id": "whole_example", "box": [0, 0, 640, 360]}
+  ]
+}

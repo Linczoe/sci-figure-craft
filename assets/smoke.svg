@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" font-family="Arial, sans-serif">
+  <rect width="640" height="360" fill="#FFFFFF"/>
+  <circle id="NODE_A" cx="160" cy="170" r="54" fill="#E4F0EC" stroke="#2E7869" stroke-width="3" data-kind="process"/>
+  <circle id="NODE_B" cx="480" cy="170" r="54" fill="#F7E4E0" stroke="#A7463B" stroke-width="3" data-kind="process"/>
+  <text id="LABEL_A" x="160" y="178" font-size="24" text-anchor="middle" fill="#20262B">Input</text>
+  <text id="LABEL_B" x="480" y="178" font-size="24" text-anchor="middle" fill="#20262B">Outcome</text>
+  <g id="EDGE_AB" data-kind="connector" data-source-id="NODE_A" data-target-id="NODE_B" data-relation="activation" data-meaning="Input activates Outcome">
+    <line x1="214" y1="170" x2="426" y2="170" stroke="#496B8E" stroke-width="4"/>
+    <polygon points="426,170 408,160 408,180" fill="#496B8E"/>
+  </g>
+  <text id="CAPTION" x="320" y="290" font-size="20" text-anchor="middle" fill="#59636C">Generic SVG smoke test</text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "edges": [
+    {"id": "EDGE_AB", "source": "NODE_A", "target": "NODE_B", "relation": "activation", "check_source": true}
+  ],
+  "required_edges": ["EDGE_AB"],
+  "text_policy": "no-cjk"
+}
